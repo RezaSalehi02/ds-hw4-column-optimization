@@ -1,7 +1,7 @@
 def solve():
     import sys
     
-    with open('/home/reza/Desktop/home works/data structure & database/ds-hw4-column-optimization/input.txt', 'r') as f:
+    with open('input.txt', 'r') as f:
         data = f.read().strip().split()
     
     if not data:
@@ -59,7 +59,7 @@ def solve():
         indices = f"{best_pair_indices[0]} {best_pair_indices[1]}"
         max_diameter = best_pair_stability
     
-    with open('/home/reza/Desktop/home works/data structure & database/ds-hw4-column-optimization/output.txt', 'w') as f:
+    with open('output.txt', 'w') as f:
         f.write(f"{num_blocks}\n")
         f.write(f"{indices}\n")
         f.write(f"{max_diameter}\n")
