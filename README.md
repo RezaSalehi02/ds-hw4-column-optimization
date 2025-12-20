@@ -22,8 +22,7 @@ The solution considers:
 ## Project Structure
 ds-hw4-column-optimization/
 │── solution.py
-│── data/
-│ └── input.txt
+│── input.txt
 │── output.txt
 │── README.md
 
