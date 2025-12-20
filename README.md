@@ -36,9 +36,15 @@ ds-hw4-column-optimization/
 
 ## How to Run
 
-### Method 1: Default Input
-Make sure the input file exists at:
-data/input.txt
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/USERNAME/ds-hw4-column-optimization.git
+cd ds-hw4-column-optimization
+
+### Step 2: Run the Program
+#### Method 1: Default Input
+Make sure the input file exists in the project root directory:
+input.txt
 
 Then run:
 ```bash
@@ -47,7 +53,7 @@ python solution.py
 The output will be written to:
 output.txt
 
-Method 2: Custom Input and Output Paths
+#### Method 2: Custom Input and Output Paths
 You can specify custom input and output files using command-line arguments:
 python solution.py --input path/to/input.txt --output path/to/output.txt
 
@@ -78,5 +84,3 @@ The algorithm efficiently compares single-block and two-block configurations.
 
 Author
 Reza Salehinezhad
-
-
