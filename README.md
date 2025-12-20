@@ -37,7 +37,8 @@ ds-hw4-column-optimization/
 ## How to Run
 
 ### Step 1: Clone the Repository
-```bash
+
+'''bash
 git clone https://github.com/USERNAME/ds-hw4-column-optimization.git
 cd ds-hw4-column-optimization
 
@@ -47,7 +48,7 @@ Make sure the input file exists in the project root directory:
 input.txt
 
 Then run:
-```bash
+'''bash
 python solution.py
 
 The output will be written to:
@@ -57,7 +58,7 @@ output.txt
 You can specify custom input and output files using command-line arguments:
 python solution.py --input path/to/input.txt --output path/to/output.txt
 
-Input Format
+## Input Format
 The first number is an integer n, the number of blocks
 The next 3 × n integers represent the dimensions of each block
 
@@ -67,7 +68,7 @@ Example:
 5 3 1
 6 2 2
 
-Output Format
+## Output Format
 First line: number of blocks used (1 or 2)
 Second line: index (or indices) of selected block(s)
 Third line: maximum achievable diameter
@@ -82,5 +83,5 @@ The solution automatically handles missing or empty input files.
 File paths are relative, so the code works on any system.
 The algorithm efficiently compares single-block and two-block configurations.
 
-Author
+## Author
 Reza Salehinezhad
